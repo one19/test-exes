@@ -1,0 +1,13 @@
+{
+  "name": "test-exes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "nexe-it": "cat index.js | nexe -o nexe-blob",
+    "pkg-it": "pkg index.js --output pkg-blob",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
